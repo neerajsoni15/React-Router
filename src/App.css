@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.inputField{
+  height: 40px;
+  width: 300px;
+  border-radius: 10px;
+  align-items: flex-end;
+}
+
+.ListStyle{
+  height: 100px;
+  width: 100%;
+  background: #6ab04c;
+  color: white;
+}
+
+.ListStyle ul {
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  float: center;
+  align-items: center;
+}
+
+
+.ListStyle ul li{
+  list-style: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+
+.ListStyle ul li:hover{
+  color:red;
+}
+
+.HomePage{
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: greenyellow;
+}
+
+.AboutPage{
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(255, 123, 47);
+}
+.ContactPage{
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(56, 52, 49);
+}
+.SerachBtn{
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: hotpink;
+  align-items: flex-end;
+}
